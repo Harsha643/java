@@ -123,9 +123,9 @@ changename(update){
  this.accountholdername=update;
 }
 }
-var union = new BankAccount("harsha","123XXXX456","0")
+var union = new BankAccount("harsha","123XXXX456",0)
 console.log(union);
-union.deposit("500");
+union.deposit(500);
 union.withdraw("200");
 union.getbalance();
 union.changename("vardhan");
